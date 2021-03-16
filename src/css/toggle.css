@@ -32,8 +32,8 @@ nav {
     margin: -4rem 3rem;
 }
 .icons{
-    height: 20px;
-    width: 20px;
+    height: 22px;
+    width: 22px;
     transition: 0.3s;
 }
 .icons:hover{
@@ -41,12 +41,13 @@ nav {
   width: 19px;
 }
 .gift-icon.btn{
-    background-color: #d4af37;
+    background-color: #da291c;
+    margin-right: 1.3rem;
 
 }
 .phone-icon.btn, .email-icon.btn{
-    background-color: #da291c;
-    margin-right: 1.3rem;
+    background-color: #d4af37;
+
 }
 .phone-icon.btn{
     display: none;

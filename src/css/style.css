@@ -87,6 +87,7 @@ img.circles{
     background-color: #fff;
     animation: shadow-pulse 2s infinite;
     margin: auto;
+    cursor: pointer;
 }
 .calendar-icon.btn:hover{
   animation: none;
@@ -95,6 +96,11 @@ img.circles{
   border: solid 2px #d4af37;
   border-radius: 30px;
   padding: 0.5rem 2.2rem;
+  font-size: 1.7rem;
+  color: #da291c;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-family: "champagneandlimousines", sans-serif;
 }
 @keyframes shadow-pulse
 {
@@ -105,13 +111,7 @@ img.circles{
           box-shadow: 0 0 0 10px rgba(212, 175, 55, 0);
      }
 }
-a.icon-txt{
-    font-size: 1.7rem;
-    color: #da291c;
-    font-family: "champagneandlimousines", sans-serif;
-    font-weight: bold;
-    letter-spacing: 2px;
-}
+
 a{
     text-decoration: none;
     font-family: "audrey", sans-serif;
