@@ -2,6 +2,7 @@
 @font-face{
     font-family: 'champagneandlimousines';
     src: url(../../assets/font/champ/cl.ttf);
+    font-display: swap;
 }
 body,html{
   font-family: "champagneandlimousines", sans-serif;

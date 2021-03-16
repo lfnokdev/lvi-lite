@@ -1,10 +1,12 @@
 @font-face{
     font-family: homemadeapple;
     src: url(../../assets/font/hma/hma.ttf);
+    font-display: swap;
 }
 @font-face{
     font-family: champagneandlimousines;
     src: url(../../assets/font/champ/cl.ttf);
+    font-display: swap;
 }
 
 :root {

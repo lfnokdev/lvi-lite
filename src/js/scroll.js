@@ -24,16 +24,16 @@ function scrollFunctionOnPhone() {
   if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
     document.getElementById("topBar").style.height = "4.5rem";
     document.getElementById("downSolid").style.height = "0";
+		document.getElementById("downSolid").style.opacity = "0";
     document.getElementById("lvi").style.marginTop = "0";
     document.getElementById("lvi").style.width = "0";
-    //document.getElementById('logobar').style.margin ="0";
     document.getElementById('headerBtn').style.margin ="0.5rem 0";
   } else {
     document.getElementById("topBar").style.height = "24rem";
     document.getElementById("downSolid").style.height = "100%";
+		document.getElementById("downSolid").style.opacity = "1";
     document.getElementById("lvi").style.marginTop = "15rem";
     document.getElementById("lvi").style.width = "20rem";
-    //document.getElementById('logobar').style.margin ="1rem 0";
     document.getElementById('headerBtn').style.margin ="1rem 25rem";
   }
 }
@@ -42,6 +42,7 @@ function scrollFunctionOnTab() {
   if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
     document.getElementById("topBar").style.height = "6rem";
     document.getElementById("downSolid").style.height = "0";
+		document.getElementById("downSolid").style.opacity = "0";
     document.getElementById("lvi").style.marginTop = "0";
     document.getElementById("lvi").style.width = "13rem";
     document.getElementById('logobar').style.opacity ="1";
@@ -49,7 +50,8 @@ function scrollFunctionOnTab() {
 		document.getElementById('social-icon-container').style.opacity ="1";
   } else {
     document.getElementById("topBar").style.height = "25rem";
-      document.getElementById("downSolid").style.height = "100%";
+  	document.getElementById("downSolid").style.height = "100%";
+		document.getElementById("downSolid").style.opacity = "1";
     document.getElementById("lvi").style.marginTop = "15rem";
     document.getElementById("lvi").style.width = "23rem";
     document.getElementById('logobar').style.opacity ="0";

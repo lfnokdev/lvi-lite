@@ -2,22 +2,27 @@
 @font-face{
     font-family: 'audrey';
     src: url(../../assets/font/ad/adb.otf);
+    font-display: swap;
 }
 @font-face{
     font-family: 'homemadeapple';
     src: url(../../assets/font/hma/hma.ttf);
+    font-display: swap;
 }
 @font-face{
     font-family: 'audrey-bold';
     src: url(../../assets/font/ad/ad.otf);
+    font-display: swap;
 }
 @font-face{
     font-family: 'champagneandlimousines-bold';
     src: url(../../assets/font/champ/clb.ttf);
+    font-display: swap;
 }
  @font-face{
     font-family: 'champagneandlimousines';
     src: url(../../assets/font/champ/cl.ttf);
+    font-display: swap;
 }
 #allSite{
   transition: 5s;
@@ -67,7 +72,7 @@ P{
 }
 .hero{
     height: 99vh;
-    background-image: linear-gradient(rgba(212, 175, 55, 0.3), rgba(255, 255, 255, 0.3)), url(../../assets/pic/dsk-bg.jpg);
+    background-image: linear-gradient(rgba(212, 175, 55, 0.3), rgba(255, 255, 255, 0.3)), url(../../assets/pic/dsk-bg1.jpg);
     background-size:cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -127,7 +132,9 @@ a.link{
     .navbar{
       margin: 1rem 0;
     }
-
+    .hero{
+        background-image: linear-gradient(rgba(212, 175, 55, 0.3), rgba(255, 255, 255, 0.3)), url(../../assets/pic/mb-bg.jpg);
+    }
     .phone-icon.btn{
     display: inline!important;
     }
@@ -186,6 +193,7 @@ a.link{
     }
     aside.contact{
         height: 15px;
+        text-align: center;
     }
     .link{
         font-size:17px;
