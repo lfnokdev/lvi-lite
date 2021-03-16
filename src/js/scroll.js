@@ -27,6 +27,7 @@ function scrollFunctionOnPhone() {
 		document.getElementById("downSolid").style.opacity = "0";
     document.getElementById("lvi").style.marginTop = "0";
     document.getElementById("lvi").style.width = "0";
+		document.getElementById('logobar').style.opacity ="1";
     document.getElementById('headerBtn').style.margin ="0.5rem 0";
   } else {
     document.getElementById("topBar").style.height = "24rem";
@@ -34,6 +35,7 @@ function scrollFunctionOnPhone() {
 		document.getElementById("downSolid").style.opacity = "1";
     document.getElementById("lvi").style.marginTop = "15rem";
     document.getElementById("lvi").style.width = "20rem";
+		document.getElementById('logobar').style.opacity ="0";
     document.getElementById('headerBtn').style.margin ="1rem 25rem";
   }
 }

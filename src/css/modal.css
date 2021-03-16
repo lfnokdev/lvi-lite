@@ -1,6 +1,5 @@
 .modal {
   background-color: #fff;
-  border: 7em solid #b0c4de;
   border-radius: 7rem;
   display: none;
   max-width: 100%;
@@ -30,7 +29,6 @@ iframe{
   top: 0;
   visibility: visible;
   -webkit-overflow-scrolling: touch;
-  border: solid 5px #b0c4de;
   border-radius: 7rem;
   width: 58rem;
   animation: bgMultiColor 50s 1;
@@ -147,6 +145,7 @@ iframe{
         width: 24rem;;
         height: 13rem;
         margin: 0rem;
+        border-radius: 0;
     }
 
 
