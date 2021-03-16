@@ -8,9 +8,9 @@ document.getElementById('singular-form')
    emailjs.sendForm(serviceID, templateID, this)
     .then(() => {
 
-    
+
       setTimeout(function(){
-        window.location.href = 'http://localhost/lvi-static/';
+        window.location.href = 'index.html';
       }, 1500);
 
     }, (err) => {
