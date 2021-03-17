@@ -42,7 +42,7 @@ sf.submitForm = () => {
     sf.successMessage.classList.add('shown');
     let submission = setTimeout(() => sf.form.submit(), sf.submitDelay);
     setTimeout(function(){
-      window.location.href = 'http://localhost/lvi-static/';
+      window.location.href = 'index.html';
     }, 1500);
 }
 
