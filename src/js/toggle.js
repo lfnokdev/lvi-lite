@@ -1,5 +1,5 @@
 var card = document.getElementById('activator');
-var tl = gsap.timeline({defaults: {ease: "power2.inOut"}})
+var tl = gsap.timeline({defaults: {ease: "power1.inOut"}})
 
 var toggle = false;
 
