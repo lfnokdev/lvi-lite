@@ -19,10 +19,10 @@ function scrollFunctionOnPhone() {
 		document.getElementById('logobar').style.opacity ="1";
     document.getElementById('headerBtn').style.margin ="0.5rem 0";
   } else {
-    document.getElementById("topBar").style.height = "24rem";
+    document.getElementById("topBar").style.height = "17rem";
     document.getElementById("downSolid").style.height = "100%";
 		document.getElementById("downSolid").style.opacity = "1";
-    document.getElementById("lvi").style.marginTop = "15rem";
+    document.getElementById("lvi").style.marginTop = "8rem";
     document.getElementById("lvi").style.width = "20rem";
 		document.getElementById('logobar').style.opacity ="0";
     document.getElementById('headerBtn').style.margin ="1rem 25rem";

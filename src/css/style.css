@@ -151,13 +151,13 @@ a.link.visib-mb{
     }
 
     #topBar{
-      height: 24rem;
+      height: 17rem;
     }
     #downSolid{
       height: 29rem;
     }
     .hero{
-      margin-top: 7rem;
+      margin-top: 8rem;
     }
     H2{
       font-size: 1rem;
@@ -195,14 +195,14 @@ a.link.visib-mb{
         width: 150px;
     }
     aside.contact{
-        height: 40px;
+        height: 2rem;
         text-align: center;
     }
     a.link.visib-mb{
       display:inline;
     }
     .link{
-        font-size:17px;
+        font-size:12px;
     }
     footer{
         height: 20px;
