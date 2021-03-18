@@ -1,7 +1,8 @@
 var btn = document.getElementById("headerBtn");
-var modal = "https://www.youtube.com/embed/rw_KGvQTcbw";
+var modal = "https://www.youtube.com/embed/cl6t5cP-JOM";
 var eBtn = document.getElementById('emailBtn');
 var mail = 'mailto:laviedinterieur@gmail.com?subject= En savoir +';
+var mailnok = 'mailto:support@nok-it.com?subject= Assistance';
 var pBtn = document.getElementById('phoneBtn');
 var phone = 'tel:+33650108400';
 
@@ -17,12 +18,16 @@ btn.addEventListener("click", addModal);
 
 //mailto
 function emailTo(event){
-  eBtn.onclick = window.location.href= mail;
+  window.location.href= mail;
 }
 eBtn.addEventListener("click", emailTo);
 
 //phoneto
 function phoneTo(event){
-  pBtn.onclick = window.location.href = phone;
+  window.location.href = phone;
 }
 pBtn.addEventListener("click", phoneTo);
+
+function emailToNok(event){
+  window.location.href= mailnok;
+}

@@ -132,6 +132,10 @@ sideBar{
   #social-icon-container{
     display: none;
   }
+  img.logo{
+    width: 20rem;
+    margin-top: 15rem;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1199.98px){

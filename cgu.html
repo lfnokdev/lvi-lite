@@ -64,36 +64,34 @@
       <!-- FAQ -->
       <section id="faq">
         <h2>Questions fréquentes</h2>
-        <button type="button" class="collapsible"><h3>Etes-vous déja en activité ?</h3></button>
+        <button type="button" class="collapsible"><h3>Cela fait combien de temps que vous exercez votre activité ?</h3></button>
         <div class="content">
           <P>
-            Oui, l'entreprise la vie d'intérieur existe depuis 2018 et compte depuis
-            de nombreuses clientes satisfaites.
+             l'entreprise la vie d'intérieur existe depuis 2018 et aussi loin que remonte mes souvenirs, j'ai toujours
+             eu une passion pour l'organisation et la décoration d'intérieur.
           </P>
         </div>
         <button type="button" class="collapsible alt"><h3>Combien de temps dure un diagnostic ?</h3></button>
         <div class="content">
           <P>
-            Le diagnostique en lui même environ 30 minutes pour une pièce d'envrion 20m2.
+            Pour la réalisation d'un diagnostic, il vous faut compter 1h30 environ, soit une disponibilité au total de 2 heures.
 
           </P>
         </div>
-        <button type="button" class="collapsible"><h3>Est-il possible d'annuler un rendez-vous réservé ?</h3></button>
+        <button type="button" class="collapsible"><h3>Est-il possible d'annuler un rendez-vous ?</h3></button>
         <div class="content">
           <P>
-            Bien évidement, vous pouvez le faire par téléphone, email ou en vous
-            rendant sur laviedinterieur.fr. Il ets préférable d'annuler un rendez vous au moins 30 minutes
-            avant l'heure du rendez vous. En cas de déplacement pour un rendez vous annuler tardivement,
-            des frais de déplacement peuvent être réclamé si aucune justification n'est fournit.
+            Bien entendu, vous pouvez annuler un rendez-vous jusqu'à 48h à l'avance. Pour ce faire, vous nous contactez par
+            par email, téléphone ou en vous rendant sur notre site internet: laviedinterieur.fr
           </P>
         </div>
         <button type="button" class="collapsible alt"><h3>Quelles précautions prenez vous par rapport au COVID 19 ?</h3></button>
         <div class="content">
           <P>
             Il est important de se protéger et protéger également notre entourage en cette période.
-            En me basant sur les recommandations émisent par le gouvernement,
             j'ai mis en place un protocole me permettant d'assurer mes prestations dans le
             respect strict des gestes barrieres et des mesures sanitaires préconisées.
+            Ce protocole évolue en fonction des récommendations gouvernementales.
           </P>
         </div>
         <button type="button" class="collapsible "><h3>Une connaissance vend sa maison et c'est un peu le bazard,
@@ -110,15 +108,16 @@
         <button type="button" class="collapsible alt"><h3>J'habite à Guyancourt est-ce que je peux profiter de vos services ?</h3></button>
         <div class="content">
           <P>
-            Vous le pouvez car j'interviens sur Paris et l'ensemble de l'île de france.
+            Vous le pouvez car j'interviens sur Paris et l'ensemble de l'île de france. Néanmoins vous pouvez profitez de mes services
+            pour modéliser et vous conseiller sur votre projet, sans limite géographique.
           </P>
         </div>
-        <button type="button" class="collapsible "><h3>Comment être sûr du résultat ?</h3></button>
+        <button type="button" class="collapsible "><h3>J'ai plein d'idées, mais je ne sais pas par où commencer ?</h3></button>
         <div class="content">
           <P>
-          Vous le pouvez grâce à la modélisation de votre projet en 3D. Avec cette option,
-          vous êtes littéralement immergé au coeur de votre projet. Vous pouvez analyser
-          le projet fini dans ses moindres détails avec un rendu haut définition.
+          Que vous n'ayez pas d'idée précise ou que vous ayez arrété vos choix, je m'adapte à votre projet, quel que soit
+          son avancement. Grâce à la modélisation en 3D, vous êtes littéralement immergé au coeur de votre projet.
+          Vous profitez des moindres détails avec un rendu haut définition.
           </P>
         </div>
       </section>
@@ -128,12 +127,11 @@
           Proriétaire du site: La vie d'intérieur</br>
           Responsable de publication: Claudia Joly Bellance</br>
           Micro Entreprise</br>
-          3 rue du poirier piquet </br>
           91170 Viry chatillon</br>
           Numéro de SIRET: 83983382900014</br>
         </p>
         <p>
-          Nous contacter: <a href="">Formulaire de contact</a>
+          Nous contacter: <button class="btn" onclick="emailTo()">Email</button>
         </p>
       </section>
       <section id="Host">
@@ -144,7 +142,7 @@
           91000 Evry-courcouronnes</br>
         </p>
         <p>
-          Nous contacter: <a href="">Formulaire de contact</a>
+          Nous contacter: <button class="btn" onclick="emailToNok()">Email</button>
         </p>
       </section>
       <section id="cgu">
@@ -164,7 +162,7 @@
           aux modifications.
         </p>
         <p>
-          Nous contacter: <a href="">Formulaire de contact</a>
+          Nous contacter: <button class="btn" onclick="emailToNok()">Email</button>
         </p>
         </br>
         <h3>Traitement des données</h3>
@@ -184,7 +182,7 @@
           données.</br>
         </p>
         <p>
-          Nous contacter:<a href="">Formulaire de contact</a>
+          Nous contacter:<button class="btn" onclick="emailToNok()">Email</button>
         </p>
         <p>
           Consultez le site <a href="https://www.cnil.fr/">cnil.fr</a>
@@ -205,19 +203,19 @@
         <h2>Ressources</h2>
         <ul>
           <li>
-            Icones: Bootstrap(https://icons.getbootstrap.com/)
+            Icones: <a href="https://icons.getbootstrap.com/">Bootstrap</a>
           </li>
             <li>
-              Modal: C.Ferdinandi v10.1.2 (http://github.com/cferdinandi/modals)
+              Modal: <a href="http://github.com/cferdinandi/modals">C.Ferdinandi v10.1.2</a>
             </li>
             <li>
-              Scroll down: T.Nagele (https://codepen.io/xonic/pen/KWMaqe)
+              Scroll down: <a href="https://codepen.io/xonic/pen/KWMaqe">T.Nagele</a>
             </li>
             <li>
-              Slide out navigation: Designcourse (https://codepen.io/designcourse/pen/ExgPaWE)
+              Slide out navigation: <a href="https://codepen.io/designcourse/pen/ExgPaWE">Designcourse</a>
             </li>
             <li>
-              Image/video Cottonbro (https://www.pexels.com/fr-fr/@cottonbro)
+              Image/video <a href="https://www.pexels.com/fr-fr/@cottonbro">Cottonbro</a>
             </li>
         </ul>
       </section>
@@ -249,10 +247,10 @@
     </div>
     <!--Menu Nav et link-->
     <aside class="contact">
-        <a href="index.html" class="link" target="_blank" rel="noopener">HOME</a> |
+        <a href="index.html" class="link" rel="noopener">HOME</a> |
         <a href="https://www.facebook.com/La-Vie-DInt%C3%A9rieur-2112895318969261" class="link" target="_blank" rel="noopener"> FACEBOOK</a> |
         <a href="https://www.linkedin.com/in/claudia-joly-bellance-597082131/" class="link" target="_blank" rel="noopener"> LINKEDIN </a>|
-        <a href="" class="link"> INSTAGRAM </a>
+        <a href="https://www.instagram.com/laviedinterieur/?hl=fr" class="link"> INSTAGRAM </a>
     </aside>
     <!-- footer -->
     <footer>
@@ -260,5 +258,6 @@
     </footer>
     <!-- script JS -->
     <script src="src/js/cgu.js"></script>
+    <script src="src/js/player.js"></script>
   </body>
 </html>

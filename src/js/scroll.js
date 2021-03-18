@@ -8,17 +8,6 @@ document.addEventListener('DOMContentLoaded', function () {
 window.onload = resizeScreen;
 window.addEventListener("resize", resizeScreen);
 
-function resizeScreen(){
-  var screenSize = window.innerWidth;
-  if (screenSize < 576 ){
-      window.onscroll = function() {scrollFunctionOnPhone()};
-  }else if (screenSize >= 576 && screenSize < 1199 ){
-      window.onscroll = function() {scrollFunctionOnTab()};
-  }else {
-      window.onscroll = function() {scrollFunction()};
-  }
-}
-window.onresize = resizeScreen;
 //Resize
 function scrollFunctionOnPhone() {
   if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
@@ -82,3 +71,15 @@ function scrollFunction() {
     document.getElementById('social-icon-container').style.opacity ="0";
   }
 }
+
+function resizeScreen(){
+  var screenSize = window.innerWidth;
+  if (screenSize < 576 ){
+      window.onscroll = function() {scrollFunctionOnPhone()};
+  }else if (screenSize >= 576 && screenSize < 1199 ){
+      window.onscroll = function() {scrollFunctionOnTab()};
+  }else {
+      window.onscroll = function() {scrollFunction()};
+  }
+}
+window.onresize = resizeScreen;

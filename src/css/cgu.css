@@ -47,6 +47,7 @@ a{
 }
 ul {
     list-style-type: none;
+    font-size: 2rem;
 }
 section{
   padding-top:20rem;
@@ -74,6 +75,26 @@ section{
 .active, .collapsible:hover {
   background-color: #ccc;
 }
+.btn {
+    border: 0;
+    height: 20px;
+    width: 65px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn:hover {
+    box-shadow: 0 0 2px 1px #b0c4de;
+}
+.btn:focus {
+    outline: none;
+}
+
+.btn:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+
 /*Responsive*/
 /*Phone (portrait less than 576px)*/
 @media screen and (max-width: 575.98px){

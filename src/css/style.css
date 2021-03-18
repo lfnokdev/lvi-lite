@@ -126,6 +126,9 @@ a{
 a.link{
   text-transform: uppercase;
 }
+a.link.visib-mb{
+  display: none
+}
 /*Responsive*/
 /*Phone (portrait less than 576px)*/
 @media screen and (max-width: 575.98px){
@@ -192,8 +195,11 @@ a.link{
         width: 150px;
     }
     aside.contact{
-        height: 15px;
+        height: 40px;
         text-align: center;
+    }
+    a.link.visib-mb{
+      display:inline;
     }
     .link{
         font-size:17px;
